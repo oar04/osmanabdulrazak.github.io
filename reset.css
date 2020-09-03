@@ -1,0 +1,9 @@
+html, body, div, h1, h2, p, form, header, nav, figure, figcaption, footer, aside, details, summary, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background:transparent;
+
+ }

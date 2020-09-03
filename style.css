@@ -1,0 +1,246 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'helvetica', 'serif';
+    background-color: white;
+    background-image: url(javacode.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.banner-image{
+	width: 100%;
+    display: block;
+    padding-bottom: 50px;
+	
+}
+
+
+
+.background-image{
+    background-size: cover;
+}
+
+main{
+    margin: 5px;
+    font-size: 26px;
+    float: left;
+}
+
+aside{
+    position: absolute;
+    right: 0em;
+    top: 0;
+    width: 12em; 
+}
+
+
+
+
+
+.skill1:hover{
+    border: 2px solid rgba(73, 73, 73, 0.198);
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px 10px;
+    padding: 0px 5px;
+    transition: 0.5s;
+}
+
+
+
+.skills >h2{
+    padding: 15px;
+    margin: auto;
+    display: inline-block;
+  
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'consolas', 'serif';
+}
+
+.image{
+    max-width: 175px;
+    padding: 15px;
+}
+
+.heading{
+    text-align: center;
+}
+
+table{
+    width: 100px;
+}
+
+.footer-style{
+    clear: both;
+    background-color: #343A40;
+    color: #999C9F;
+    font-size: 16px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.footer-text{
+    padding-right: 5px;
+}
+
+div.form{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#formTitle{
+    font-size: 50px;
+    text-align: center;
+}
+
+.display_title{
+    font-size: 50px;
+}
+
+#blogHeading{
+    font-size: 25px;
+    text-align: center;
+}
+
+input{
+    width: 100%
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    background-color: rgba(73, 73, 73, 0.198);
+    border-radius: 50px;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+  }
+
+
+input[type=text]:focus, input[type=password]:focus{
+    transition: all 0.5s ease;
+    background-color: rgba(0, 225, 255, 0.198);
+    outline: none;
+}
+
+input[type=submit], input[type=button]{
+    background-color: rgba(73, 73, 73, 0.198);
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    margin: 10px;
+    transition-duration: 0.3s;
+}
+input[type=submit]:hover, input[type=button]:hover{
+    background-color: rgba(17, 17, 17, 0.671);
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+
+textarea{
+    max-width: 100%;
+    height: 100%;
+    padding: 12px 20px;
+    
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(73, 73, 73, 0.198);
+    resize: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ textarea:focus{
+    background-color: rgba(144, 144, 144, 0.198);
+    transition: 0.5s;
+ }
+
+.postStyle{
+    margin: 0 auto;
+    max-width: 1000px;
+    border-width:5px;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-style:solid;
+    border-color:rgba(128, 128, 128, 0.198);
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+ }
+
+ .searchStyle{
+    margin: 0 auto;
+    max-width: 1000px;
+    border-width:5px;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-style:solid;
+    border-color:rgba(0, 195, 255, 0.198);
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+ }
+
+.blog-layout{
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#blogcontents{
+    max-width: 900px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#preview{
+    margin: auto; 
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin:20px;
+    max-width: 900px;
+}
+
+#descriptions{
+    display: block;
+}
+
+.card{
+    display: inline-block;
+}
